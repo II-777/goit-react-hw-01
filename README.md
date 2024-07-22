@@ -2,9 +2,7 @@
 title: README
 date: 2024-07-21 21:03
 author: II-777
-gitea: none
-include_toc: true
-tags: 
+tags: goit react hw-01 
 ---
 
 # goit-react-hw-01.
