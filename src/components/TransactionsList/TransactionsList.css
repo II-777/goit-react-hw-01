@@ -1,16 +1,17 @@
 .transactions-wrapper {
-  width: 100%;
+  max-width: 1450px;
   height: 100%;
-  overflow-x: auto;
   margin: auto auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 table {
-  width: 100%;
+  max-width: 100%; 
+  width: 100%; 
   border-collapse: collapse;
 }
 
@@ -21,7 +22,9 @@ thead {
 
 th, td {
   padding: 12px;
-  text-align: center;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
   border: 1px solid #ddd;
 }
 
