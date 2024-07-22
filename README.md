@@ -5,7 +5,7 @@ author: II-777
 tags: goit react hw-01 
 ---
 
-# goit-react-hw-01.
+# goit-react-hw-01
 
 - [+] Створений репозиторій goit-react-hw-01.
 - [+] Проєкт створено за допомогою Vite.
