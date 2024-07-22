@@ -1,10 +1,12 @@
 import './FriendsList.css';
-import { FriendsListItem } from './FriendsListItem';
+import FriendsListItem from './FriendsListItem';
 
-export const FriendsList = ({ friends }) => (
+const FriendsList = ({ friends }) => (
   <div className="friend-wrapper">
     {friends.map(({ id, avatar, name, isOnline }) => (
       <FriendsListItem key={id} avatar={avatar} name={name} isOnline={isOnline} />
     ))}
   </div>
 );
+
+export default FriendsList;

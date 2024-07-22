@@ -1,7 +1,7 @@
-import './TransactionsList.css';
-import { TransactionsListItem } from './TransactionsListItem';
+import './TransactionHistory.css';
+import TransactionHistoryItem from './TransactionHistoryItem';
 
-export const TransactionsList = ({ transactions }) => (
+const TransactionHistory = ({ transactions }) => (
   <div className="transactions-wrapper">
     <table>
       <thead>
@@ -13,7 +13,7 @@ export const TransactionsList = ({ transactions }) => (
       </thead>
       <tbody>
         {transactions.map(({ id, type, amount, currency }) => (
-          <TransactionsListItem 
+          <TransactionHistoryItem 
             key={id}
             type={type}
             amount={amount}
@@ -24,3 +24,5 @@ export const TransactionsList = ({ transactions }) => (
     </table>
   </div>
 );
+
+export default TransactionHistory;

@@ -1,12 +1,12 @@
 import user from '../../src/data/user.json';
 import friends from '../../src/data/friends.json';
 import transactions from '../../src/data/transactions.json';
-import { Profile } from './Profile/Profile';
-import { FriendsList } from './FriendsList/FriendsList';
-import { TransactionsList } from './TransactionsList/TransactionsList';
+import Profile from './Profile/Profile';
+import FriendsList from './FriendsList/FriendsList';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 import './Profile/Profile.css';
 import './FriendsList/FriendsList.css';
-import './TransactionsList/TransactionsList.css';
+import './TransactionHistory/TransactionHistory.css';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         stats={user.stats}
       />
       <FriendsList friends={friends} />
-      <TransactionsList transactions={transactions} />
+      <TransactionHistory transactions={transactions} />
     </>
   )
 }

@@ -1,4 +1,4 @@
-export const FriendsListItem = ({ avatar, name, isOnline }) => (
+const FriendsListItem = ({ avatar, name, isOnline }) => (
   <div className="friend">
     <img src={avatar} alt={name} className="friend-avatar" />
     <div className="friend-info">
@@ -7,3 +7,5 @@ export const FriendsListItem = ({ avatar, name, isOnline }) => (
     </div>
   </div>
 );
+
+export default FriendsListItem;
